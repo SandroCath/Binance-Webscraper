@@ -52,7 +52,7 @@ def save_to_csv(symbol, data):
     :param symbol: Symbol for the cryptocurrency
     :param data: Price history data
     """
-    path =r"C:\Users\sandr\PycharmProjects\Webscraper\Data\Price History"
+    path =r"C:\Users\sandr\OneDrive\Dokumente\GitHub\Binance-Webscraper\Data\Price History"
     filename = path + "\\" + f"{symbol}.csv"
     with open(filename, 'w', newline='') as file:
         writer = csv.writer(file)
